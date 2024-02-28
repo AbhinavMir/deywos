@@ -1,5 +1,5 @@
 baseURL = "https://example.com"
-title = "HUGO.386"
+title = "deywos"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
 theme = "hugo.386"
@@ -9,7 +9,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
 [params]
 
     # The name to display as main title in the home page
-    mainpagetitle = "HUGO.386"
+    mainpagetitle = "deywos"
 
      # The subtitle to display under the title in the home page
     mainpagesubtitle = "DevTooling, that just works." 
@@ -49,7 +49,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
     url = "http://jmf-portfolio.netlify.com"
 
     # Text to go before copyright information
-    prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
+    prefix = "[deywos theme by Max le Fou](https://gitlab.com/maxlefou/deywos)"
 
     # Text to go between copyright and hugo disclaimer (if enabled)
     suffix = "Example site"
