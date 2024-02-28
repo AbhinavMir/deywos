@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>DEYWOS</h1>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span9 bs-docs-sidebar">
+        <p class="lead">{{ .Site.Params.mainpagesubtitle }}</p>
+        <p></p>
+        <p>Deywos is a suite of tools in the blockchain devtooling space. 
+    <br><br>
+            Deywos, the name, in Proto-Indo-European mythology, represents the sky or daylight deity. This figure is the precursor to many sky and thunder gods in ancient Indo-European religions, embodying divine power, order, and light.</p>
+        <p></p>
+        <hr class="soften">
+        <p></p>
+        <h1>Products</h1>
+        <ul>
+            <li><a href="strudel.dev">&rarr; Strudel</a>: Shared, private EVM, Cosmos and Solana testnets for your team.</li>
+            <li><a href="eclair.sh">&rarr; Eclair</a>: Automate building wrapper around your EVM code.</li>
+            <li><a href="https://github.com/abhinavmir/sol2huff">&rarr; Sol2Huff</a>: Transpile Solidity code into Huff.</li>
+            <li>&rarr; <a>Open Source</a>: Contributing to Reth, Anvil, Rollkit, Ignite CLI, Firedancer etc.</li>
+        </ul>
+    </div>
+
+    <div class="span3 bs-docs-sidebar">
+        <h1>Socials</h1>
+        <ul class="nav nav-list bs-docs-sidenav">
+            {{ partial "categories.html" .}}
+        </ul>
+        <p></p>
+        <h1>Get updates</h1>
+        <a>
+        <ul class="nav nav-list bs-docs-sidenav">
+            &rAarr; Sign up for our newsletter
+        </ul>
+        </a>
+    </div>
+</div>
+
+{{ end }}

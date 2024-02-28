@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <div id="content" class="container">
+        {{- block "main" . }}{{- end }}
+        <br>
+        <div style="padding-top: 2000px; padding-bottom: 20px;">
+        </div>
+    </body>
+    {{- partial "scripts.html" . -}}
+</html>
